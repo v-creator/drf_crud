@@ -17,7 +17,6 @@ ENV SECRET_KEY=django-insecure-nw^y+m^wmxza1asgk+)!ua2qx9)g+#v=6%76-9i8i(6eqiw94
     DB_PORT=5432
 
 RUN python manage.py migrate
-RUN python manage.py collectstatic
 
 EXPOSE 8000
 
